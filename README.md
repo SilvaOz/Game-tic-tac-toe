@@ -2,7 +2,7 @@
 
 This is a simple Tic Tac Toe game made with HTML, CSS and JavaScript.
 
-![Calculator image](https://github.com/SilvaOz/Game-tic-tac-toe/blob/main/img/Screenshot%20from%202023-03-24%2022-20-55.png)
+![Game image]<img src="https://github.com/SilvaOz/Game-tic-tac-toe/blob/main/img/Screenshot%20from%202023-03-24%2022-20-55.png" width="200">
 ![Languages](https://img.shields.io/github/languages/count/silvaoz/Game-tic-tac-toe)
 ![Top Language](https://img.shields.io/github/languages/top/silvaoz/Game-tic-tac-toe)
 ![Last Commit](https://img.shields.io/github/last-commit/silvaoz/Game-tic-tac-toe)
