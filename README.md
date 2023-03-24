@@ -22,7 +22,7 @@ This is a simple Tic Tac Toe game made with HTML, CSS and JavaScript.
 
 ## Live Demo
 
-You can try the game [here](silvaoz.github.io/Game-tic-tac-toe/).
+You can try the game [here](https://silvaoz.github.io/Game-tic-tac-toe/ ).
 
 ## Installation
 
