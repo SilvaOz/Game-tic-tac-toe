@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5ED7F2;
+}
+
+.title-container {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #ffff
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #0F758C;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover {
+    background-color: #ffffff74;
+}
+
+.cell.blue {
+    color: #F27777;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+
+}
+
+.cell.yellow {
+    color: #F2D377;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+#reset-button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0F758C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#reset-button:hover {
+    background-color: #F27777;
+    color: #F2D377;
+    transition: 0.5s;
+}
+
+.message {
+    font-size: 2rem;
+}
